@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Practice</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="./componenents/harley david.jpg">
 </head>
 <body>
     <!-- Heading Tags -->
@@ -165,6 +167,126 @@ Nothing will be altered in this block, making it ideal for displaying code snipp
     <embed src="https://www.example.com" type="text/html" width="600" height="400">
         <p>Your browser does not support the embed tag.</p>
     </embed>
+    <!--Table Tag-->
+    <table border="1" >
+        <caption>Sample Table</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>Los Angeles</td>
+        </tr>
+        <tr>
+            <td>Emily Johnson</td>
+            <td>35</td>
+            <td>Chicago</td>
+        </tr>
+    </table><br><br>
+    <!--Column and row span attributes in table cells-->
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td rowspan="2">John Doe</td>
+            <td colspan="2">30</td>
+        </tr>
+        <tr>
+            <td>New York</td>
+            <td>USA</td>
+        </tr>
+    </table><br><br>
+    <!--Form Tag-->
+    <form action="/submit" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <input type="submit" value="Submit">
+    </form><br><br>
+
+    <!--List Tags-->
+    <h2>Unordered List</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <h2>Ordered List</h2>
+    <ol>
+        <li>First Item</li>
+        <li>Second Item</li>
+        <li>Third Item</li>
+    </ol>
+    <!--Nested List-->
+    <h2>Nested List</h2>
+    <ul>
+        <li>Item 1
+            <ul>
+                <li>Subitem 1.1</li>
+                <li>Subitem 1.2</li>
+            </ul>
+        </li>
+        <li>Item 2
+            <ol>
+                <li>Subitem 2.1</li>
+                <li>Subitem 2.2</li>
+            </ol>
+        </li>
+        <li>Item 3</li>
+    </ul>
+    <!--Definition List-->
+    <h2>Definition List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language used to create interactive effects within web browsers.</dd>
+    </dl>
+    <!--Horizontal List-->
+    <h2>Horizontal List</h2>
+    <ul style="list-style-type: none; display: flex; gap: 20px;">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <!--Description List-->
+    <h2>Description List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language used to create interactive effects within web browsers.</dd>
+    </dl>
+    <!--Menu List-->
+    <h2>Menu List</h2>
+    <menu>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </menu>
+    <!--Directory List-->
+    <h2>Directory List</h2>
+    <dir>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </dir>
 
 
 
